@@ -71,6 +71,15 @@ I am a passionate **Student Developer** based in Indonesia, specializing in **We
 
 ### 📊 GitHub Activity & Statistics
 
+<!-- PACMAN ANIMATION -->
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/daffadzakwanpratama/daffadzakwanpratama/output/pacman-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/daffadzakwanpratama/daffadzakwanpratama/output/pacman-contribution-graph.svg">
+    <img alt="Pacman Contribution Graph" src="https://raw.githubusercontent.com/daffadzakwanpratama/daffadzakwanpratama/output/pacman-contribution-graph.svg" width="100%">
+  </picture>
+</p>
+
 <!-- SNAKE ANIMATION -->
 <p align="center">
   <picture>
