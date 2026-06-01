@@ -71,6 +71,15 @@ I am a passionate **Student Developer** based in Indonesia, specializing in **We
 
 ### 📊 GitHub Activity & Statistics
 
+<!-- SNAKE ANIMATION -->
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/daffadzakwanpratama/daffadzakwanpratama/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/daffadzakwanpratama/daffadzakwanpratama/output/github-contribution-grid-snake.svg">
+    <img alt="GitHub Contribution Grid Snake" src="https://raw.githubusercontent.com/daffadzakwanpratama/daffadzakwanpratama/output/github-contribution-grid-snake.svg" width="100%">
+  </picture>
+</p>
+
 <p align="center">
   <img src="https://github-readme-stats.shion.dev/api?username=daffadzakwanpratama&show_icons=true&title_color=ffa726&icon_color=ffa726&text_color=c9d1d9&bg_color=0d1117&hide_border=true&count_private=true" alt="Daffa's GitHub Stats" height="160" />
   <img src="https://github-readme-stats.shion.dev/api/top-langs?username=daffadzakwanpratama&layout=compact&title_color=ffa726&icon_color=ffa726&text_color=c9d1d9&bg_color=0d1117&hide_border=true" alt="Top Languages" height="160" />
