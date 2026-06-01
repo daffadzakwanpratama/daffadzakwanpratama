@@ -33,7 +33,7 @@ jobs:
           
       # Push the content of the dist directory to the 'output' branch
       - name: Push github-contribution-grid-snake.svg to GitHub Pages
-        uses: crazy-max/ghaction-github-pages@v3.5.0
+        uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
