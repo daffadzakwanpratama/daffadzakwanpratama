@@ -1,5 +1,5 @@
 <!-- GREETING & INTRO -->
-<h1 align="center">Hi there, I'm Daffa Pratama 👋</h1>
+<h1 align="center">Hi there, I'm Daffa Dzakwan Pratama 👋</h1>
 <p align="center">
   <strong>Web Developer | Python Programmer | Automation & Data Enthusiast</strong>
 </p>
