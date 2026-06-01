@@ -72,8 +72,8 @@ I am a passionate **Student Developer** based in Indonesia, specializing in **We
 ### 📊 GitHub Activity & Statistics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=daffadzakwanpratama&show_icons=true&title_color=ffa726&icon_color=ffa726&text_color=c9d1d9&bg_color=0d1117&hide_border=true&count_private=true" alt="Daffa's GitHub Stats" height="160" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=daffadzakwanpratama&layout=compact&title_color=ffa726&icon_color=ffa726&text_color=c9d1d9&bg_color=0d1117&hide_border=true" alt="Top Languages" height="160" />
+  <img src="https://github-readme-stats.shion.dev/api?username=daffadzakwanpratama&show_icons=true&title_color=ffa726&icon_color=ffa726&text_color=c9d1d9&bg_color=0d1117&hide_border=true&count_private=true" alt="Daffa's GitHub Stats" height="160" />
+  <img src="https://github-readme-stats.shion.dev/api/top-langs?username=daffadzakwanpratama&layout=compact&title_color=ffa726&icon_color=ffa726&text_color=c9d1d9&bg_color=0d1117&hide_border=true" alt="Top Languages" height="160" />
 </p>
 
 <p align="center">
