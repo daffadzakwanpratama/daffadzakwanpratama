@@ -1,8 +1,3 @@
-<!-- HEADER BANNER -->
-<p align="center">
-  <img src="assets/banner.png" alt="Daffa Pratama Banner" width="100%">
-</p>
-
 <!-- GREETING & INTRO -->
 <h1 align="center">Hi there, I'm Daffa Pratama 👋</h1>
 <p align="center">
