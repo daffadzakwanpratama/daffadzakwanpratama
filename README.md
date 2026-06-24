@@ -3,5 +3,5 @@
 </p>
 
 <p align="center">
-  <img src="https://wttr.in/Jakarta_3patch_lang=id.png" alt="Weather in Jakarta" />
+  <img src="weather.svg" alt="Bogor Weather" />
 </p>

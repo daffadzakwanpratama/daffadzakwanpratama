@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="450" height="150" viewBox="0 0 450 150">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a;stop-opacity:0.95" />
+      <stop offset="100%" style="stop-color:#1e1b4b;stop-opacity:0.95" />
+    </linearGradient>
+    <!-- Border Gradient -->
+    <linearGradient id="border-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#818cf8;stop-opacity:0.8" />
+      <stop offset="50%" style="stop-color:#c084fc;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#6366f1;stop-opacity:0.8" />
+    </linearGradient>
+    <style>
+      .title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; font-weight: 700; font-size: 16px; fill: #f8fafc; }
+      .subtitle { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; font-size: 12px; fill: #94a3b8; }
+      .temp { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; font-weight: 800; font-size: 36px; fill: #f8fafc; }
+      .condition { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; font-weight: 500; font-size: 14px; fill: #38bdf8; }
+      .detail-label { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; font-size: 10px; fill: #64748b; font-weight: bold; letter-spacing: 0.5px; }
+      .detail-val { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; font-weight: 600; font-size: 13px; fill: #cbd5e1; }
+      .update-time { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; font-size: 9px; fill: #475569; }
+      .emoji { font-size: 55px; }
+    </style>
+  </defs>
+  
+  <!-- Card Border and Background -->
+  <rect x="2" y="2" width="446" height="146" rx="16" fill="url(#bg-grad)" stroke="url(#border-grad)" stroke-width="2" />
+  
+  <!-- Weather Icon/Emoji -->
+  <text x="30" y="95" class="emoji">☁️</text>
+  
+  <!-- Temperature & Condition -->
+  <text x="110" y="65" class="temp">32.0°C</text>
+  <text x="110" y="88" class="condition">Mendung</text>
+  
+  <!-- Location Information -->
+  <text x="110" y="32" class="title">Bogor, Indonesia</text>
+  
+  <!-- Divider -->
+  <line x1="285" y1="20" x2="285" y2="130" stroke="#334155" stroke-width="1" stroke-dasharray="3 3" />
+  
+  <!-- Details Section -->
+  <!-- Humidity -->
+  <text x="305" y="38" class="detail-label">KELEMBABAN</text>
+  <text x="305" y="55" class="detail-val">50%</text>
+  
+  <!-- Feels Like -->
+  <text x="305" y="80" class="detail-label">TERASA SEPERTI</text>
+  <text x="305" y="97" class="detail-val">36.0°C</text>
+  
+  <!-- Wind Speed -->
+  <text x="305" y="122" class="detail-val">2.5 km/h</text>
+  <text x="305" y="110" class="detail-label">ANGIN</text>
+  
+  <!-- Last Update -->
+  <text x="110" y="130" class="update-time">Diperbarui: 24 Jun 2026, 13:48 WIB</text>
+</svg>
