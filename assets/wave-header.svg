@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 220" width="900" height="220" role="img" aria-label="Hi, I'm Daffa - Learning AI and building websites and apps with AI">
+  <defs>
+    <linearGradient id="oceanBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="55%" stop-color="#0369a1" />
+      <stop offset="100%" stop-color="#0c4a6e" />
+    </linearGradient>
+
+    <linearGradient id="waveGrad1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#bae6fd" stop-opacity="0.32" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.18" />
+    </linearGradient>
+
+    <linearGradient id="waveGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7dd3fc" stop-opacity="0.48" />
+      <stop offset="100%" stop-color="#0ea5e9" stop-opacity="0.32" />
+    </linearGradient>
+
+    <linearGradient id="waveGrad3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e0f2fe" stop-opacity="0.78" />
+      <stop offset="100%" stop-color="#bae6fd" stop-opacity="0.58" />
+    </linearGradient>
+
+    <clipPath id="roundedClip">
+      <rect x="0" y="0" width="900" height="220" rx="16" ry="16" />
+    </clipPath>
+
+    <filter id="textShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#082f49" flood-opacity="0.35" />
+    </filter>
+  </defs>
+
+  <style>
+    .title {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-size: 38px;
+      font-weight: 700;
+      fill: #ffffff;
+      letter-spacing: -0.5px;
+    }
+    .subtitle {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      font-weight: 500;
+      fill: #e0f2fe;
+      letter-spacing: 0.3px;
+    }
+    .wave-1 {
+      animation: moveWave1 18s linear infinite;
+    }
+    .wave-2 {
+      animation: moveWave2 11s linear infinite;
+    }
+    .wave-3 {
+      animation: moveWave3 7.5s linear infinite;
+    }
+    .bubble {
+      animation: floatUp 6s ease-in-out infinite;
+    }
+    .bubble-2 {
+      animation: floatUp 8s ease-in-out infinite 1.5s;
+    }
+    .bubble-3 {
+      animation: floatUp 7s ease-in-out infinite 3s;
+    }
+
+    @keyframes moveWave1 {
+      0% { transform: translateX(0px); }
+      100% { transform: translateX(-900px); }
+    }
+    @keyframes moveWave2 {
+      0% { transform: translateX(0px); }
+      100% { transform: translateX(-600px); }
+    }
+    @keyframes moveWave3 {
+      0% { transform: translateX(0px); }
+      100% { transform: translateX(-450px); }
+    }
+    @keyframes floatUp {
+      0%, 100% { transform: translateY(0px); opacity: 0.25; }
+      50% { transform: translateY(-10px); opacity: 0.6; }
+    }
+  </style>
+
+  <g clip-path="url(#roundedClip)">
+    <!-- Ocean Sky/Sea Gradient Background -->
+    <rect x="0" y="0" width="900" height="220" fill="url(#oceanBg)" />
+
+    <!-- Subtle ambient circles -->
+    <circle class="bubble" cx="130" cy="52" r="4" fill="#bae6fd" />
+    <circle class="bubble-2" cx="760" cy="44" r="5" fill="#e0f2fe" />
+    <circle class="bubble-3" cx="680" cy="86" r="3" fill="#7dd3fc" />
+    <circle class="bubble-2" cx="215" cy="92" r="2.5" fill="#e0f2fe" />
+
+    <!-- Header Text -->
+    <g filter="url(#textShadow)" text-anchor="middle">
+      <text x="450" y="76" class="title">Hi, I'm Daffa 👋</text>
+      <text x="450" y="108" class="subtitle">Learning AI · Building Websites &amp; Apps with AI</text>
+    </g>
+
+    <!-- Back Wave (Period 900px) -->
+    <g class="wave-1">
+      <path fill="url(#waveGrad1)" d="M 0,142 c 150,-26 300,-26 450,0 s 300,26 450,0 c 150,-26 300,-26 450,0 s 300,26 450,0 L 1800,220 L 0,220 Z" />
+    </g>
+
+    <!-- Middle Wave (Period 600px) -->
+    <g class="wave-2">
+      <path fill="url(#waveGrad2)" d="M 0,158 c 100,-22 200,-22 300,0 s 200,22 300,0 c 100,-22 200,-22 300,0 s 200,22 300,0 c 100,-22 200,-22 300,0 s 200,22 300,0 L 1800,220 L 0,220 Z" />
+    </g>
+
+    <!-- Front Wave (Period 450px) -->
+    <g class="wave-3">
+      <path fill="url(#waveGrad3)" d="M 0,174 c 75,-16 150,-16 225,0 s 150,16 225,0 c 75,-16 150,-16 225,0 s 150,16 225,0 c 75,-16 150,-16 225,0 s 150,16 225,0 c 75,-16 150,-16 225,0 s 150,16 225,0 L 1800,220 L 0,220 Z" />
+    </g>
+  </g>
+</svg>
